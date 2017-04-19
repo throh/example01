@@ -28,8 +28,10 @@ public class subDirList {
 		//		System.out.println("\t 파일이름 = " + file.getName());
 		//	}
 		//}
-		String path  = "C:\\" ;
-		System.out.println("*** " +path + " result");
+		//String path  = "C:\\" ;
+		String path;
+		path = args[0] ;
+		System.out.println("*** " +path + " ; result");
 		getFileList(path);
 		
 
